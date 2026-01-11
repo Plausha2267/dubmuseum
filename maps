@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: solid;
+  border-color: blue;
+}
+
+a:hover, a:active {
+  background-color: blue;
+}
+        body {
+            background-color: white;
+        }
+        #xd1 {
+            background-image: linear-gradient(to right, black, gray);
+            text-align: center;
+            text-align-last: center;
+            border-radius: 20px;
+            font-size:50px;
+            color: white;
+            width: 400px;
+            text-decoration-color: chocolate;
+            margin: auto;
+        }
+    </style> 
+</head>
+<body>
+    <header>
+        <h1 id="xd1">Музей Дубровского</h1>
+    </header>
+    <div id="bu1">
+        <a href="index.html">Обратно</a>
+        <br>
+    </div>
+</body>
+</html>
