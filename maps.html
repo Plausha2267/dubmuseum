@@ -1,44 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <style>
-    a:link, a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-style: solid;
-  border-color: blue;
-}
-
-a:hover, a:active {
-  background-color: blue;
-}
-        body {
-            background-color: white;
-        }
-        #xd1 {
-            background-image: linear-gradient(to right, black, gray);
-            text-align: center;
-            text-align-last: center;
-            border-radius: 20px;
-            font-size:50px;
-            color: white;
-            width: 400px;
-            text-decoration-color: chocolate;
-            margin: auto;
-        }
-    </style> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта · Музей Дубровского</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1 id="xd1">Музей Дубровского</h1>
+    <header class="site-header">
+        <span class="kicker">Раздел выставки</span>
+        <h1>Карта</h1>
+        <p class="subtitle">Места, где разворачиваются события романа</p>
     </header>
-    <div id="bu1">
-        <a href="index.html">Обратно</a>
-        <br>
-    </div>
+
+    <main class="container">
+        <p class="lead">
+            Здесь появится карта с усадьбами Кистенёвкой и Покровским,
+            где живут Дубровские и Троекуровы.
+        </p>
+
+        <div class="map-placeholder">
+            <span class="pin">📍</span>
+            <h2 class="section-title" style="margin-top:0;">Скоро открытие</h2>
+            <p class="lead" style="margin-bottom:0;">
+                Раздел находится в разработке. Загляните позже!
+            </p>
+        </div>
+
+        <div class="btn-row">
+            <a class="btn btn--ghost" href="index.html">← Обратно</a>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        Музей Дубровского · учебный проект
+    </footer>
 </body>
 </html>

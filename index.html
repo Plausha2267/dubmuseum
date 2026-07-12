@@ -1,52 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <style>
-    a:link, a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-style: solid;
-  border-color: blue;
-}
-
-a:hover, a:active {
-  background-color: blue;
-}
-        body {
-            background-color: white;
-        }
-        #xd1 {
-            background-image: linear-gradient(to right, black, gray);
-            text-align: center;
-            text-align-last: center;
-            border-radius: 20px;
-            font-size:50px;
-            color: white;
-            width: 400px;
-            text-decoration-color: chocolate;
-            margin: auto;
-        }
-    </style> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музей Дубровского</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1 id="xd1">Музей Дубровского</h1>
+    <header class="site-header">
+        <span class="kicker">Литературный музей</span>
+        <h1>Музей Дубровского</h1>
+        <p class="subtitle">По мотивам романа А.&nbsp;С.&nbsp;Пушкина «Дубровский»</p>
     </header>
-    <div id="bu1">
-        <a href="maps.html">Карта</a>
-        <br>
-        <a href="https://google.com">Письма</a>
-        <br>
-        <a href="https://google.com">Записки</a>
-        <br>
-        <a href="fashion.html">Мода</a>
-    </div>
+
+    <main class="container">
+        <p class="lead">
+            Добро пожаловать! Выберите раздел, чтобы отправиться в путешествие
+            по миру повести — от старинных карт до нарядов той эпохи.
+        </p>
+
+        <nav class="nav-grid">
+            <a class="nav-card" href="maps.html">
+                <span class="icon">🗺️</span>
+                <span class="label">Карта</span>
+                <span class="hint">Места событий романа</span>
+            </a>
+            <a class="nav-card" href="https://google.com">
+                <span class="icon">✉️</span>
+                <span class="label">Письма</span>
+                <span class="hint">Переписка героев</span>
+            </a>
+            <a class="nav-card" href="https://google.com">
+                <span class="icon">📜</span>
+                <span class="label">Записки</span>
+                <span class="hint">Заметки и документы</span>
+            </a>
+            <a class="nav-card" href="fashion.html">
+                <span class="icon">👗</span>
+                <span class="label">Мода</span>
+                <span class="hint">Наряды XIX века</span>
+            </a>
+        </nav>
+    </main>
+
+    <footer class="site-footer">
+        Музей Дубровского · учебный проект
+    </footer>
 </body>
 </html>
-
-
-
